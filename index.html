@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziyue Yin - Personal Website</title>
+    <meta name="description" content="Ziyue Yin's personal website - Software Developer & Engineer">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span data-en="Ziyue Yin" data-zh="殷子越">Ziyue Yin</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#about" data-en="About" data-zh="关于我">About</a>
+                <a href="#skills" data-en="Skills" data-zh="技能">Skills</a>
+                <a href="#projects" data-en="Projects" data-zh="项目">Projects</a>
+                <a href="#contact" data-en="Contact" data-zh="联系我">Contact</a>
+                <div class="language-switch">
+                    <button id="langBtn" class="lang-btn">
+                        <span class="lang-text">中文</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span data-en="Hello, I'm" data-zh="你好，我是">Hello, I'm</span>
+                        <span class="highlight">Ziyue Yin</span>
+                    </h1>
+                    <p class="hero-subtitle" data-en="Software Developer & Engineer passionate about creating innovative solutions" data-zh="热爱创新解决方案的软件开发工程师">
+                        Software Developer & Engineer passionate about creating innovative solutions
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary" data-en="View My Work" data-zh="查看我的作品">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-zh="联系我">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-circle">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title" data-en="About Me" data-zh="关于我">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-en="I'm a passionate software developer with a strong background in computer science and engineering. I enjoy solving complex problems and building innovative solutions that make a difference." data-zh="我是一名充满热情的软件开发者，拥有扎实的计算机科学和工程背景。我热爱解决复杂问题，构建有意义的创新解决方案。">
+                            I'm a passionate software developer with a strong background in computer science and engineering. I enjoy solving complex problems and building innovative solutions that make a difference.
+                        </p>
+                        <p data-en="With experience in full-stack development, I'm proficient in various programming languages and frameworks. I'm always eager to learn new technologies and improve my skills." data-zh="拥有全栈开发经验，我精通多种编程语言和框架。我始终保持学习新技术、提升技能的热情。">
+                            With experience in full-stack development, I'm proficient in various programming languages and frameworks. I'm always eager to learn new technologies and improve my skills.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>2+</h3>
+                            <p data-en="Years of Experience" data-zh="年开发经验">Years of Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>10+</h3>
+                            <p data-en="Projects Completed" data-zh="完成项目">Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5+</h3>
+                            <p data-en="Technologies Mastered" data-zh="掌握技术">Technologies Mastered</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title" data-en="Skills & Technologies" data-zh="技能与技术">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 data-en="Frontend Development" data-zh="前端开发">Frontend Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">Vue.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-en="Backend Development" data-zh="后端开发">Backend Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">Node.js</span>
+                            <span class="skill-item">Java</span>
+                            <span class="skill-item">Express.js</span>
+                            <span class="skill-item">Django</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 data-en="Database & Tools" data-zh="数据库与工具">Database & Tools</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">MySQL</span>
+                            <span class="skill-item">MongoDB</span>
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title" data-en="Featured Projects" data-zh="精选项目">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-en="Personal Website" data-zh="个人网站">Personal Website</h3>
+                            <p data-en="A responsive personal website built with HTML, CSS, and JavaScript featuring bilingual support." data-zh="使用HTML、CSS和JavaScript构建的响应式个人网站，支持双语功能。">
+                                A responsive personal website built with HTML, CSS, and JavaScript featuring bilingual support.
+                            </p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-en="Live Demo" data-zh="在线演示">Live Demo</a>
+                                <a href="#" class="project-link" data-en="Source Code" data-zh="源代码">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-en="Web Application" data-zh="Web应用程序">Web Application</h3>
+                            <p data-en="A full-stack web application demonstrating modern development practices and technologies." data-zh="展示现代开发实践和技术的全栈Web应用程序。">
+                                A full-stack web application demonstrating modern development practices and technologies.
+                            </p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-en="Live Demo" data-zh="在线演示">Live Demo</a>
+                                <a href="#" class="project-link" data-en="Source Code" data-zh="源代码">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 data-en="Mobile App" data-zh="移动应用">Mobile App</h3>
+                            <p data-en="A cross-platform mobile application with modern UI and smooth user experience." data-zh="具有现代化UI和流畅用户体验的跨平台移动应用程序。">
+                                A cross-platform mobile application with modern UI and smooth user experience.
+                            </p>
+                            <div class="project-tech">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-en="Live Demo" data-zh="在线演示">Live Demo</a>
+                                <a href="#" class="project-link" data-en="Source Code" data-zh="源代码">Source Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title" data-en="Get In Touch" data-zh="联系我">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p data-en="I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together!" data-zh="我总是对新的机会和合作感兴趣。如果您想与我合作，请随时联系我！">
+                            I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to work together!
+                        </p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:your.email@example.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </a>
+                        <a href="https://linkedin.com/in/yourprofile" class="contact-method" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/yourusername" class="contact-method" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ziyue Yin. <span data-en="All rights reserved." data-zh="保留所有权利。">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
