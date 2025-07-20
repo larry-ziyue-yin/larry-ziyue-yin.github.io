@@ -218,7 +218,7 @@ function initializeScrollAnimations() {
     }, observerOptions);
     
     // Observe elements for animation
-    const animateElements = document.querySelectorAll('.skill-category, .project-card, .stat, .about-text, .contact-content, .education-card, .interest-item');
+    const animateElements = document.querySelectorAll('.skill-category, .project-card, .stat, .about-text, .contact-content');
     animateElements.forEach(el => {
         el.classList.add('fade-in');
         observer.observe(el);

@@ -215,23 +215,6 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
-.btn-outline {
-    background: transparent;
-    color: var(--text-primary);
-    border-color: var(--border-color);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.btn-outline:hover {
-    background: var(--bg-secondary);
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
-}
-
 .hero-image {
     display: flex;
     justify-content: center;
@@ -320,120 +303,10 @@ section {
     font-weight: 500;
 }
 
-/* Education Section */
-.education {
-    background: var(--bg-primary);
-}
-
-.education-content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.education-card {
-    background: white;
-    border-radius: 1rem;
-    padding: 2rem;
-    box-shadow: var(--shadow-lg);
-    border-left: 4px solid var(--primary-color);
-    transition: var(--transition);
-}
-
-.education-card:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-xl);
-}
-
-.education-header {
-    display: flex;
-    align-items: flex-start;
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.education-icon {
-    background: var(--primary-color);
-    color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    flex-shrink: 0;
-}
-
-.education-info h3 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
-}
-
-.education-info h4 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-}
-
-.education-period {
-    color: var(--text-secondary);
-    font-weight: 500;
-}
-
-.education-details {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.degree {
-    padding: 1rem;
-    background: var(--bg-secondary);
-    border-radius: 0.5rem;
-}
-
-.degree h5 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
-}
-
-.degree p {
-    color: var(--text-secondary);
-    font-style: italic;
-}
-
-.academic-achievements {
-    display: grid;
-    gap: 0.75rem;
-}
-
-.achievement {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem;
-    background: var(--bg-secondary);
-    border-radius: 0.5rem;
-}
-
-.achievement-label {
-    font-weight: 600;
-    color: var(--text-primary);
-}
-
-.achievement-value {
-    color: var(--primary-color);
-    font-weight: 500;
-}
-
 /* Skills Section */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -561,56 +434,6 @@ section {
     text-decoration: underline;
 }
 
-/* Interests Section */
-.interests {
-    background: var(--bg-secondary);
-}
-
-.interests-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-}
-
-.interest-item {
-    background: white;
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    box-shadow: var(--shadow-md);
-    transition: var(--transition);
-}
-
-.interest-item:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
-}
-
-.interest-icon {
-    width: 80px;
-    height: 80px;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1.5rem;
-    font-size: 2rem;
-    color: white;
-}
-
-.interest-item h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: var(--text-primary);
-    margin-bottom: 1rem;
-}
-
-.interest-item p {
-    color: var(--text-secondary);
-    line-height: 1.6;
-}
-
 /* Contact Section */
 .contact-content {
     max-width: 600px;
@@ -720,13 +543,11 @@ section {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
-        gap: 0.75rem;
     }
     
     .btn {
         text-align: center;
         width: 200px;
-        justify-content: center;
     }
     
     .contact-methods {
