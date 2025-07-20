@@ -1,4 +1,4 @@
-# 尹子跃的个人网站 | Ziyue Yin's Personal Website
+# 殷子越的个人网站 | Ziyue Yin's Personal Website
 
 欢迎访问我的个人网站！这是一个现代化的响应式双语个人网站，展示我的技能、项目和经历。
 
