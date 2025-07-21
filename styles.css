@@ -238,18 +238,57 @@ body {
     align-items: center;
 }
 
-.profile-circle {
+.profile-container {
+    position: relative;
     width: 300px;
     height: 300px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 8rem;
-    color: white;
-    box-shadow: var(--shadow-xl);
     animation: float 6s ease-in-out infinite;
+}
+
+.profile-frame {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 4px;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+}
+
+.profile-social {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    background: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.social-link {
+    color: var(--text-primary);
+    font-size: 1.25rem;
+    transition: var(--transition);
+}
+
+.social-link:hover {
+    color: var(--primary-color);
+    transform: translateY(-2px);
 }
 
 @keyframes float {
@@ -609,6 +648,150 @@ section {
 .interest-item p {
     color: var(--text-secondary);
     line-height: 1.6;
+}
+
+/* Blog Section */
+.blog {
+    background: var(--bg-secondary);
+    padding: 5rem 0;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.blog-post {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.blog-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.blog-post:hover .blog-image img {
+    transform: scale(1.1);
+}
+
+.blog-date {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+}
+
+.blog-date .date {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+.blog-date .month {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.blog-content {
+    padding: 1.5rem;
+}
+
+.blog-category {
+    display: inline-block;
+    background: var(--bg-secondary);
+    color: var(--primary-color);
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+
+.blog-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.blog-excerpt {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.blog-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+}
+
+.sub-section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.gallery-item {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: var(--transition);
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
 }
 
 /* Contact Section */

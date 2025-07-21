@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Title - Ziyue Yin</title>
+    <meta name="description" content="Blog post description">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" data-en="Ziyue Yin" data-zh="尹子跃">Ziyue Yin</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html#about" data-en="About" data-zh="关于我">About</a>
+                <a href="index.html#education" data-en="Education" data-zh="教育背景">Education</a>
+                <a href="index.html#skills" data-en="Skills" data-zh="技能">Skills</a>
+                <a href="index.html#projects" data-en="Projects" data-zh="项目">Projects</a>
+                <a href="index.html#blog" data-en="Blog" data-zh="博客">Blog</a>
+                <a href="index.html#contact" data-en="Contact" data-zh="联系我">Contact</a>
+                <div class="language-switch">
+                    <button id="langBtn" class="lang-btn">
+                        <span class="lang-text">中文</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="blog-post-page">
+        <article class="blog-post-content">
+            <header class="post-header">
+                <div class="post-meta">
+                    <span class="post-date">December 25, 2023</span>
+                    <span class="post-category" data-en="Campus Life" data-zh="校园生活">Campus Life</span>
+                </div>
+                <h1 class="post-title" data-en="My First Semester at Duke Kunshan" data-zh="我在昆山杜克的第一个学期">
+                    My First Semester at Duke Kunshan
+                </h1>
+                <div class="post-author">
+                    <img src="assets/images/profile/avatar.jpg" alt="Ziyue Yin" class="author-avatar">
+                    <div class="author-info">
+                        <span class="author-name">Ziyue Yin</span>
+                        <span class="author-title" data-en="Data Science Student" data-zh="数据科学专业学生">Data Science Student</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="post-featured-image">
+                <img src="assets/images/blog/post-1-header.jpg" alt="Blog post featured image">
+            </div>
+
+            <div class="post-content">
+                <!-- Blog post content goes here -->
+                <p data-en="This is where your blog post content will go..." data-zh="这里是博客文章的内容...">
+                    This is where your blog post content will go...
+                </p>
+
+                <!-- Example of adding images within the post -->
+                <figure class="post-figure">
+                    <img src="assets/images/blog/post-1-image-1.jpg" alt="Image description">
+                    <figcaption data-en="Image caption goes here" data-zh="图片说明">Image caption goes here</figcaption>
+                </figure>
+
+                <!-- Example of adding quotes -->
+                <blockquote class="post-quote">
+                    <p data-en="An inspiring quote or important highlight from your post..." data-zh="引用或重要内容强调...">
+                        An inspiring quote or important highlight from your post...
+                    </p>
+                </blockquote>
+            </div>
+
+            <footer class="post-footer">
+                <div class="post-tags">
+                    <span class="tag">#DukeKunshan</span>
+                    <span class="tag">#StudentLife</span>
+                    <span class="tag">#DataScience</span>
+                </div>
+                <div class="post-share">
+                    <span data-en="Share this post:" data-zh="分享这篇文章：">Share this post:</span>
+                    <a href="#" class="share-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="share-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="share-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </footer>
+        </article>
+
+        <aside class="blog-sidebar">
+            <div class="sidebar-widget">
+                <h3 data-en="Recent Posts" data-zh="最近文章">Recent Posts</h3>
+                <ul class="recent-posts">
+                    <li>
+                        <a href="#" data-en="Another Blog Post Title" data-zh="另一篇博客标题">Another Blog Post Title</a>
+                        <span class="post-date">Dec 20, 2023</span>
+                    </li>
+                    <!-- Add more recent posts -->
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3 data-en="Categories" data-zh="分类">Categories</h3>
+                <ul class="categories-list">
+                    <li><a href="#" data-en="Campus Life" data-zh="校园生活">Campus Life</a></li>
+                    <li><a href="#" data-en="Academic" data-zh="学术">Academic</a></li>
+                    <li><a href="#" data-en="Research" data-zh="研究">Research</a></li>
+                    <li><a href="#" data-en="Travel" data-zh="旅行">Travel</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Ziyue Yin. <span data-en="All rights reserved." data-zh="保留所有权利。">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
