@@ -5,10 +5,10 @@ let currentLanguage = 'en';
 const languages = {
     en: {
         name: 'English',
-        switchText: '中文'
+        switchText: '简体中文'
     },
     zh: {
-        name: '中文',
+        name: '简体中文',
         switchText: 'English'
     }
 };
@@ -26,6 +26,9 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeLanguage() {
     const langBtn = document.getElementById('langBtn');
     const langText = langBtn.querySelector('.lang-text');
+    
+    // Load saved language preference first
+    loadLanguagePreference();
     
     // Set initial language button text
     langText.textContent = languages[currentLanguage].switchText;
@@ -61,12 +64,12 @@ function switchLanguage() {
     // Update page title and meta description
     const titleMap = {
         en: 'Ziyue Yin - Personal Website',
-        zh: '尹子跃 - 个人网站'
+        zh: '殷子越 - 个人网站'
     };
     
     const descriptionMap = {
-        en: "Ziyue Yin's personal website - Software Developer & Engineer",
-        zh: "尹子跃的个人网站 - 软件开发工程师"
+        en: "Ziyue Yin's personal website",
+        zh: "殷子越的个人网站"
     };
     
     document.title = titleMap[currentLanguage];
