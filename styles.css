@@ -1229,4 +1229,44 @@ section {
     .feature-item i {
         font-size: 1.5rem;
     }
+}
+
+/* Skills Section within About */
+.skills-section {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 2px solid rgba(79, 70, 229, 0.1);
+}
+
+.skills-section .sub-section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
+    position: relative;
+}
+
+.skills-section .sub-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+}
+
+.skills-section .skills-grid {
+    margin-top: 2rem;
+}
+
+.skills-section .skill-category h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    text-align: center;
 } 
