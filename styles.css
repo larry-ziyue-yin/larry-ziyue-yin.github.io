@@ -999,6 +999,89 @@ section {
     animation: slideInFromRight 0.8s ease-out;
 }
 
+/* Blog Section Styles */
+.blog {
+    padding: 5rem 0;
+}
+
+.life-section {
+    margin-bottom: 4rem;
+}
+
+.life-section .sub-section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: var(--text-primary);
+    position: relative;
+}
+
+.life-section .sub-section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 2px;
+}
+
+.life-section .interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.life-section .interest-item {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(79, 70, 229, 0.1);
+}
+
+.life-section .interest-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.life-section .interest-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.life-section .interest-item:hover .interest-icon {
+    transform: scale(1.1);
+}
+
+.life-section .interest-item h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.life-section .interest-item p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
 /* Blog Coming Soon Styles */
 .blog-coming-soon {
     text-align: center;
@@ -1006,6 +1089,7 @@ section {
     background: linear-gradient(135deg, rgba(79, 70, 229, 0.05) 0%, rgba(245, 158, 11, 0.05) 100%);
     border-radius: 20px;
     margin: 2rem 0;
+    border: 1px solid rgba(79, 70, 229, 0.1);
 }
 
 .coming-soon-content {
@@ -1100,8 +1184,31 @@ section {
     }
 }
 
-/* Responsive adjustments for coming soon section */
+/* Responsive adjustments for blog section */
 @media (max-width: 768px) {
+    .life-section .sub-section-title {
+        font-size: 1.5rem;
+    }
+    
+    .life-section .interests-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .life-section .interest-item {
+        padding: 1.5rem;
+    }
+    
+    .life-section .interest-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .life-section .interest-item h4 {
+        font-size: 1.1rem;
+    }
+    
     .coming-soon-content h3 {
         font-size: 2rem;
     }
