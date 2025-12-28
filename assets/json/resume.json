@@ -1,200 +1,178 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Ziyue Yin",
+    "label": "Data Science Undergraduate | Research Assistant (Speech & Multimodal AI, Environmental Data Science)",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ziyue.yin@dukekunshan.edu.cn",
+    "phone": "+86 181 5120 0882",
+    "url": "https://www.linkedin.com/in/ziyue-yin",
+    "summary": "Dual-degree Data Science undergraduate (Class of 2026) at Duke Kunshan University & Duke University. Research experience spanning whisper-to-normal speech conversion with neural audio codecs and Transformers, multi-omics analysis of cyanobacterial bloom dynamics under heatwaves, and retrieval-augmented QA systems with LLMs.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Kunshan",
+      "countryCode": "CN",
+      "region": "Jiangsu"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "ziyue-yin",
+        "url": "https://www.linkedin.com/in/ziyue-yin"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "China Mobile Communications Group Jiangsu Co., Ltd.",
+      "position": "AI Agent Development Intern, Digital Intelligence Support Center",
+      "url": "",
+      "startDate": "2025-08-01",
+      "endDate": "2025-09-30",
+      "summary": "Built an internal AI-agent workflow system to automate quarterly/annual operational report generation; integrated LLM-driven extraction, summarization, and templated drafting with cross-department stakeholders.",
+      "highlights": [
+        "Delivered 3 reusable workflows covering 10 report sections to standardize formatting and speed iteration",
+        "Prototype adopted internally; recognized for independence, communication, and execution by the AI Group"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Innovation and Entrepreneurship Initiative (InE), Duke Kunshan University",
+      "position": "Senior Program Assistant (Student Worker)",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2024-06-30",
+      "summary": "Coordinated and executed entrepreneurship programming and incubator events; planned operations and on-site logistics to improve engagement and event quality.",
+      "highlights": [
+        "Supported Entrepreneur Speaker Series (ESS) and U-Corp Lab, averaging ~60 attendees per event",
+        "Helped run Innovation Incubator (Dii) events serving 100+ incubator teams (Innovation Challenge, Chinese College Student Innovation & Entrepreneurship Program)"
+      ]
+    },
+    {
+      "name": "Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, Duke Kunshan University",
+      "position": "Research Assistant (Advisor: Ming Li)",
+      "url": "",
+      "startDate": "2025-06-01",
+      "summary": "Research on real-time whisper-to-normal speech conversion using neural audio codecs with Transformer-based mapping; focus on robust training under misalignment and evaluation on real whisper datasets.",
+      "highlights": [
+        "Built codec + Transformer speaker-conditioned mapping with DTW-based latent alignment and multi-objective waveform/latent losses",
+        "Benchmarking on wTIMIT and AISHELL-6-Whisper; evaluating with WER/CER, DNSMOS, SI-SDR, and MCD",
+        "First-author manuscript in preparation for ICME 2026"
+      ]
+    },
+    {
+      "name": "Duke Kunshan University",
+      "position": "Research Assistant (Advisor: Huansheng Cao)",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "2025-08-31",
+      "summary": "Multi-omics analysis of cyanobacterial bloom suppression under extreme summer heatwaves; large-scale pipelines on computing clusters and biological interpretation of heat-driven dynamics.",
+      "highlights": [
+        "Processed metagenomic, metatranscriptomic, and metabolomic datasets (QC, taxonomic profiling, functional annotation, integration)",
+        "Quantified species-level shifts and thermal thresholds suppressing Microcystis blooms",
+        "Co-first author manuscript submitted to Nature Communications (under consideration)"
+      ]
+    },
+    {
+      "name": "Duke Kunshan University",
+      "position": "Summer Research Scholar (Advisor: Paul Weng)",
+      "url": "",
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31",
+      "summary": "Built and evaluated a Retrieval-Augmented Generation (RAG) pipeline for question answering using Llama-3 8B; improved retrieval quality via indexing, embedding tuning, and filtering.",
+      "highlights": [
+        "Implemented hierarchical indexing and embedding fine-tuning; ran 75 hyperparameter configurations",
+        "Added relevancy check (cosine similarity threshold 0.6) to filter irrelevant queries and reduce cost",
+        "Achieved +21.4% Hit Rate and +12.9% Context Recall; improved faithfulness (+8.3%) and context precision (+9.1%)"
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Duke Kunshan University (DKU) & Duke University",
+      "location": "Kunshan, China / Durham, U.S.",
+      "url": "",
+      "area": "Data Science; Interdisciplinary Studies (Data Science)",
+      "studyType": "B.S. (Dual Degree)",
+      "startDate": "2022-08-01",
+      "endDate": "2026-05-31",
+      "score": "GPA: 3.827/4.0",
+      "courses": []
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Programming",
+      "level": "",
+      "icon": "fa-solid fa-code",
+      "keywords": ["Python", "Java", "Shell", "MATLAB", "SQL", "Bash", "Git"]
+    },
+    {
+      "name": "Machine Learning & Deep Learning",
+      "level": "",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "scikit-learn", "Model training & evaluation", "Experiment tracking"]
+    },
+    {
+      "name": "Research & Technical Writing",
+      "level": "",
+      "icon": "fa-solid fa-pen-nib",
+      "keywords": ["LaTeX", "Technical reports", "Posters", "Manuscripts"]
+    },
+    {
+      "name": "HPC & Systems",
+      "level": "",
+      "icon": "fa-solid fa-server",
+      "keywords": ["Linux HPC clusters", "Slurm", "GPU workflows"]
     }
   ],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
+    { "language": "Chinese", "fluency": "Native", "icon": "" },
+    { "language": "English", "fluency": "Professional Working Proficiency", "icon": "" },
+    { "language": "Spanish", "fluency": "Elementary", "icon": "" }
   ],
   "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+    { "name": "Photography", "icon": "fa-solid fa-camera", "keywords": [] },
+    { "name": "Badminton", "icon": "fa-solid fa-table-tennis-paddle-ball", "keywords": [] },
+    { "name": "Piano", "icon": "fa-solid fa-music", "keywords": [] }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Whisper-to-Normal Speech Conversion (Real-time)",
+      "summary": "A real-time whisper-to-normal speech conversion system using neural audio codecs and a Transformer-based, speaker-conditioned mapping with DTW-based latent alignment and multi-objective losses.",
+      "highlights": [
+        "DTW-based latent alignment to handle misaligned real whisper datasets",
+        "Evaluation: WER/CER, DNSMOS, SI-SDR, MCD; ablations on alignment and multi-objective losses",
+        "Target datasets: wTIMIT, AISHELL-6-Whisper"
+      ],
+      "startDate": "2025-06-01",
+      "url": ""
+    },
+    {
+      "name": "Multi-omics Analysis of Bloom Suppression under Heatwaves",
+      "summary": "End-to-end processing and integration of metagenomic, metatranscriptomic, and metabolomic data to study temperature-driven microbiome dynamics and thermal thresholds affecting Microcystis blooms.",
+      "highlights": [
+        "Species-level dynamics + thermal threshold quantification",
+        "Strain-level genomic analysis for M. aeruginosa and associated phages"
+      ],
+      "startDate": "2023-11-01",
+      "endDate": "2025-08-31",
+      "url": ""
+    },
+    {
+      "name": "RAG Question Answering with Llama-3 8B",
+      "summary": "A retrieval-augmented question answering pipeline with hierarchical indexing, embedding fine-tuning, and relevancy filtering to improve retrieval and reduce unnecessary compute.",
+      "highlights": [
+        "75-config hyperparameter sweep; best model improved Hit Rate (+21.4%) and Context Recall (+12.9%)",
+        "Relevancy check via cosine similarity thresholding (0.6)"
+      ],
+      "startDate": "2024-06-01",
+      "endDate": "2024-08-31",
+      "url": ""
     }
   ]
 }
