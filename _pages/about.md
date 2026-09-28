@@ -14,7 +14,7 @@ social: false
     <p>I'm a data science student at Duke Kunshan University, interested in the space where machine learning, thoughtful engineering, and real-world problems meet. I work on projects spanning trustworthy information, language models, and data visualization.</p>
     <div class="personal-actions">
       <a class="personal-primary" href="{{ '/projects/' | relative_url }}">Explore my work <span aria-hidden="true">↗</span></a>
-      <a class="personal-secondary" href="https://github.com/larry-ziyue-yin">Find me on GitHub <span aria-hidden="true">↗</span></a>
+      <a class="personal-secondary" href="https://www.linkedin.com/in/ziyue-yin">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 
